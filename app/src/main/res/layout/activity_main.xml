@@ -21,6 +21,8 @@
 
         android:height="70dp"
         android:width="300dp"
+
+        android:fontFamily="sans-serif-condensed"
         />
 
 
