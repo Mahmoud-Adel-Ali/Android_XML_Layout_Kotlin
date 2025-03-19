@@ -13,21 +13,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.add_two_num)
-        val num1 = findViewById<EditText>(R.id.num1)
-        val num2 = findViewById<EditText>(R.id.num2)
-        val add = findViewById<Button>(R.id.button)
-        val result = findViewById<TextView>(R.id.result)
-
-        add.setOnClickListener{
-            val a = num1.text.toString().toIntOrNull();
-            val b = num2.text.toString().toIntOrNull();
-            if(a != null && b != null){
-                val c= a + b
-                result.text = c.toString()
-            }else{
-                result.text = "Enter two number"
-            }
+        setContentView(R.layout.activity_main)
 
         }
 
