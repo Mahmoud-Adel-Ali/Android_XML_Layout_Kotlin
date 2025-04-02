@@ -115,7 +115,7 @@
             }else{
                 result.text = "Enter two number"
             }
-
+        }
 
 
 -->
