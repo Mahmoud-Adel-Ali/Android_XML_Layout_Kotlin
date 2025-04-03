@@ -10,4 +10,13 @@
     <string name="or">OR</string>
     <string name="need_an_account_sign_up">Need an account? SIGN UP</string>
     <string name="todo">TODO</string>
+    <string name="enter_two_numbers">ENTER TWO NUMBERS</string>
+    <string name="enter_first_number">Enter First Number</string>
+    <string name="enter_second_number">Enter Second Number</string>
+    <string name="add">+</string>
+    <string name="sub">-</string>
+    <string name="multiply">*</string>
+    <string name="divide">/</string>
+    <string name="clear">CLEAR</string>
+    <string name="result">RESULT</string>
 </resources>
