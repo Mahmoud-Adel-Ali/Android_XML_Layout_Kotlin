@@ -12,6 +12,7 @@
         android:layout_height="100dp"
         android:layout_margin="22dp"
         android:gravity="center"
+        android:textColor="@color/black"
         android:text="@string/enter_two_numbers"
         android:textSize="30sp" />
 
@@ -23,6 +24,9 @@
         android:layout_below="@id/textView"
         android:hint="@string/enter_first_number"
         android:inputType="number"
+        android:textColor="@color/blue"
+        android:gravity="left"
+        android:textColorHint="@color/pink"
         android:padding="10dp"
         android:autofillHints="" />
 
@@ -33,6 +37,9 @@
         android:layout_below="@id/firstNum"
         android:hint="@string/enter_second_number"
         android:inputType="number"
+        android:gravity="left"
+        android:textColorHint="@color/pink"
+        android:textColor="@color/blue"
         android:padding="10dp"
         android:autofillHints="" />
 
@@ -102,6 +109,7 @@
         android:layout_height="100dp"
         android:layout_below="@id/buttons"
         android:layout_margin="22dp"
+        android:textColor="@color/black"
         android:gravity="center"
         android:text="@string/result"
         android:textSize="30sp" />
@@ -112,6 +120,7 @@
         android:layout_height="100dp"
         android:layout_below="@id/result"
         android:layout_margin="22dp"
+        android:textColor="@color/text_color"
         android:gravity="center"
         android:text="0.0"
         android:textSize="28sp" />
